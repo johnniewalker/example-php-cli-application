@@ -1,6 +1,6 @@
 
 ;for testing -
-; 1. uncomment this line and set the include path to the Say Pay application folder:
+; 1. uncomment this line and set the include path to the Say Dal application folder:
 ; 2. save this config file as "saydal\saydal\Tests\Config\IncludePathsConfig.ini"
 ;applicationpath = "path\to\the\folder\where\the\script\resides\saydal.php"
 
