@@ -72,6 +72,13 @@ First create a config file that sets the include path to the main application fo
 
 saydal\saydal\Config\IncludePathsConfig.ini
 
+The ```TestRunner.php``` script expects Simple test to be at:
+
+{{{
+. APPLICATION_PATH . '/Vendor/simpletest_1-0-1/'
+
+}}}
+
 Then, point your command line interface to:
 
 saydal\saydal\Tests\TestRunner.php
