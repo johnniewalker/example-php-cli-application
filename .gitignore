@@ -1,3 +1,4 @@
 IncludePathsConfig.ini
 .idea/
 Vendor/
+.DS_Store
