@@ -69,8 +69,8 @@ We also expect a Vendor library to be used to house the Simpletest library for t
 
 saydal/
  Vendor/ 		    - 3rd party libraries that are not shipped with the project.
-  simpletest_1-0-1/
-   simpletest/      - [Simplest testing libary](https://sourceforge.net/projects/simpletest/files/simpletest/simpletest_1.0.1/)
+  simpletest_1.1.0/
+   simpletest/      - [Simplest testing libary current release: SimpleTest v1.1.0.](http://simpletest.org/en/download.html)
 
 
 ==  Standard Version Only ==
@@ -84,7 +84,7 @@ saydal\saydal\Config\IncludePathsConfig.ini
 The ```TestRunner.php``` script expects Simple test to be at:
 
 {{{
-. APPLICATION_PATH . '/Vendor/simpletest_1-0-1/'
+. APPLICATION_PATH . '/Vendor/simpletest_1.1.0/simpletest'
 
 }}}
 
