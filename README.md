@@ -40,6 +40,8 @@ The code has been tested extensively on two platforms throughout development:
  * Windows XP - running PHP 5.2.9 (cli)
  * Ubuntu 10.04 LTS (the Lucid Lynx) - PHP 5.3.2-1ubuntu4.7 with Suhosin-Patch (cli)
 
+The code has recently been run on PHP 7.1.7.
+
 It does not rely on any other libraries or frameworks to function.
 
 ==  "Minimal" versus "Standard" Versions ***
