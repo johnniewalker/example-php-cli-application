@@ -16,7 +16,7 @@ class IntTestCase_testOf_WritePayrollToCSVFile extends UnitTestCase
 
 	function setUp()
 		{
-		$this->_testFileName = dirname(__FILE__) . '/TempData/test.txt';
+		$this->_testFileName = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'TempData' . DIRECTORY_SEPARATOR  . 'test.txt';
 
 		@unlink( $this->_testFileName );
 		}
