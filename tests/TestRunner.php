@@ -32,8 +32,10 @@ define('APPLICATION_PATH', $pathsConfigArray['applicationpath'] );
 set_include_path (
 	APPLICATION_PATH
 	. PATH_SEPARATOR
-	. APPLICATION_PATH . '/Vendor/simpletest_1.1.0/'
+	. APPLICATION_PATH . '/src/Vendor/simpletest_1.1.0/'
 	. PATH_SEPARATOR
+    . APPLICATION_PATH . '/src/'
+    . PATH_SEPARATOR
 	. get_include_path()
 	);
 
