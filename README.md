@@ -64,29 +64,27 @@ src/
   View/
    Help.php 		- a text file containing user help for the cli output
 
-We also expect a Vendor library to be used to house the Simpletest library for testing.
+We also expect the Simpletest (simpletest_1.1.0) library for testing.
+This should be installed via specification in the project's `composer.json` file.
+Our TestRunner.php expects the Simpletest library to be at: 
 
-
-src/
- Vendor/ 		    - 3rd party libraries that are not shipped with the project.
-  simpletest_1.1.0/
-   simpletest/      - [Simplest testing libary current release: SimpleTest v1.1.0.](http://simpletest.org/en/download.html)
+vendor/ 		    - 3rd party libraries that are not shipped with the project.
+ simpletest/
+  simpletest/      - [Simplest testing libary current release: SimpleTest v1.1.0.](http://simpletest.org/en/download.html)
 
 
 ==  Standard Version Only ==
 
 Running Tests from the Command Line
 
-First create a config file that sets the include path to the main application folder, call it:
+First, create a config file that sets the include path to the main application folder, call it:
 
-saydal\saydal\Config\IncludePathsConfig.ini
+```
+tests\Config\IncludePathsConfig.ini
+```
 
-The ```TestRunner.php``` script expects Simple test to be at:
+This info helps the `TestRunner.php` to set the base include path. 
 
-{{{
-. APPLICATION_PATH . '/Vendor/simpletest_1.1.0/simpletest'
-
-}}}
 
 Then, point your command line interface to:
 
