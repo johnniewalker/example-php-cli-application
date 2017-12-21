@@ -64,6 +64,15 @@ saydal/
   View/
    Help.php 		- a text file containing user help for the cli output
 
+We also expect a Vendor library to be used to house the Simpletest library for testing.
+
+
+saydal/
+ Vendor/ 		    - 3rd party libraries that are not shipped with the project.
+  simpletest_1-0-1/
+   simpletest/      - [Simplest testing libary](https://sourceforge.net/projects/simpletest/files/simpletest/simpletest_1.0.1/)
+
+
 ==  Standard Version Only ==
 
 Running Tests from the Command Line
