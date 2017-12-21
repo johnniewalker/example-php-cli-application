@@ -1,5 +1,27 @@
 {
+    "name": "johnniewalker/example-php-cli-application",
+    "type": "library",
+    "description": "Example of a nice CLI Application in PHP for a job interview. Kept as a reminder.",
+    "keywords": ["example","cli"],
+    "homepage": "https://github.com/johnniewalker/example-php-cli-application",
+    "license": "Apache",
+    "support": {
+        "issues": "https://github.com/johnniewalker/example-php-cli-application/issues"
+    },
+    "authors": [
+        {
+            "name": "Johnnie Walker",
+            "homepage": "https://github.com/johnniewalker",
+            "role": "Developer"
+        }
+    ],
     "require-dev": {
         "simpletest/simpletest": "^1.1"
+    },
+    "require": {
+        "php": ">=5.2.9"
+    },
+    "autoload": {
+        "classmap": ["."]
     }
 }

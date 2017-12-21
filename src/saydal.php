@@ -1,5 +1,6 @@
 <?php
 
+
 /**
 *@desc The main say pay utility CLI bootstrap file
 *
@@ -24,13 +25,16 @@ setlocale(LC_TIME, null);
 * Do not edit below this line
 */
 
+require APPLICATION_PATH . '/../vendor/autoload.php';
+
+/*
 //set the include paths
 set_include_path (
 	APPLICATION_PATH
 	. PATH_SEPARATOR
 	. get_include_path()
 	);
-
+*/
 
 require_once('Controller/MainController.php');
 $appResult = Controller_MainController::executeCLI( $argc,  $argv );
