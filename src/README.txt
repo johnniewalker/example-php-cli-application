@@ -52,7 +52,7 @@ Otherwise, the unit tests are included in the version. They were run using the S
 
 The main parts in the project:
 
-saydal/
+src/
  saydal.php 		- the main bootstrap for the application
  Controller/
   MainController.php 	- the main control code for the application
@@ -67,7 +67,7 @@ saydal/
 We also expect a Vendor library to be used to house the Simpletest library for testing.
 
 
-saydal/
+src/
  Vendor/ 		    - 3rd party libraries that are not shipped with the project.
   simpletest_1.1.0/
    simpletest/      - [Simplest testing libary current release: SimpleTest v1.1.0.](http://simpletest.org/en/download.html)
